@@ -2,7 +2,7 @@
 
 namespace UserApp.API.Domain.Interfaces.Repositories
 {
-    public interface IChildModuleRepository : IBaseRepository<ChildModule>
+    public interface IChildModuleRepository : IBaseRepository<ChildModule, Guid>
     {
         List<ChildModule> GetByModuleId(Guid moduleId);
         ChildModule Get(string childModuleName);

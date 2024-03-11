@@ -2,7 +2,7 @@
 
 namespace UserApp.API.Domain.Interfaces.Repositories
 {
-    public interface IRoleRepository : IBaseRepository<Role>
+    public interface IRoleRepository : IBaseRepository<Role, Guid>
     {
         Role Get(string roleName);
 

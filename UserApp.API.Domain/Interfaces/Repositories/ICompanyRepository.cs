@@ -2,7 +2,7 @@
 
 namespace UserApp.API.Domain.Interfaces.Repositories
 {
-    public interface ICompanyRepository : IBaseRepository<Company>
+    public interface ICompanyRepository : IBaseRepository<Company, Guid>
     {
         Company Get(string companyName);
     }
