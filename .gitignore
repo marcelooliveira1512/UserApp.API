@@ -1,4 +1,5 @@
 # Ignora arquivos de compilação e resultados de build
+.vs/
 bin/
 obj/
 

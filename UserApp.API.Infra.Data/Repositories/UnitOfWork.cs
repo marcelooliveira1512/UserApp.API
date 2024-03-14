@@ -14,8 +14,6 @@ namespace UserApp.API.Infra.Data.Repositories
 
         public IChildModuleRepository ChildModuleRepository => throw new NotImplementedException();
 
-        public ICompanyRepository CompanyRepository => new CompanyRepository(_dataContext);
-
         public IModuleRepository ModuleRepository => throw new NotImplementedException();
 
         public IPermissionRepository PermissionRepository => throw new NotImplementedException();

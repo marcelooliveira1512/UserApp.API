@@ -14,9 +14,6 @@
         public DateTime? UpdatedAt { get; set; }
         public Guid? UpdatedBy { get; set; }
 
-        //Cada User pertence a 1 Company
-        public Company? Company { get; set; }
-
         //Role User TEM MUITOS Users
         public List<RoleUser>? RoleUsers { get; set; }
 

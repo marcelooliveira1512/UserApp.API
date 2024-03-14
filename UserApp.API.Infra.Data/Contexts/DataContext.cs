@@ -7,7 +7,6 @@ namespace UserApp.API.Infra.Data.Contexts
     {
         // mapeando os modelos de domínio
         public DbSet<ChildModule> ChildModules { get; set; }
-        public DbSet<Company> Companys { get; set; }
         public DbSet<Module> Modules { get; set; }
         public DbSet<Permission> Permissions { get; set; }
         public DbSet<Role> Roles { get; set; }

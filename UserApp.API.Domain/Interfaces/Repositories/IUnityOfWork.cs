@@ -3,7 +3,6 @@
     public interface IUnityOfWork : IDisposable
     {
         IChildModuleRepository ChildModuleRepository { get; }
-        ICompanyRepository CompanyRepository { get; }
         IModuleRepository ModuleRepository { get; }
         IPermissionRepository PermissionRepository { get; }
         IRolePermissionRepository RolePermissionRepository { get; }
